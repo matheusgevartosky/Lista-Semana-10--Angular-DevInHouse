@@ -6,12 +6,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SearchComponent } from './Components/search/search.component';
 import { HomeComponent } from './Views/home/home.component';
+import { ProductsComponent } from './Components/products/products.component';
+import { PricingComponent } from './Components/pricing/pricing.component';
+import { AboutComponent } from './Components/about/about.component';
+import { MenuComponent } from './Views/menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchComponent,
-    HomeComponent
+    HomeComponent,
+    ProductsComponent,
+    PricingComponent,
+    AboutComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
