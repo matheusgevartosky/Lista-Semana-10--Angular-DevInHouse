@@ -1,0 +1,10 @@
+<form>
+  <input type="text"
+  [(ngModel)]='entrada'
+  name= 'app-search'
+  placheholder = 'Insira sua pesquisa!'
+  >
+  <button (click)="emissor()" >enviar</button>
+</form>
+<h1>{{entrada}}</h1>
+
