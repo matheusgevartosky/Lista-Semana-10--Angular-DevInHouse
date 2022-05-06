@@ -12,6 +12,10 @@ import { AboutComponent } from './Components/about/about.component';
 import { MenuComponent } from './Views/menu/menu.component';
 import { FullComponent } from './layout/full/full.component';
 import { ContentComponent } from './layout/content/content.component';
+import { ContentRestrictComponent } from './layout/content-restrict/content-restrict.component';
+
+import { LoginComponent } from './Components/login/login.component';
+import { RecoverPasswordComponent } from './Components/recover-password/recover-password.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +27,11 @@ import { ContentComponent } from './layout/content/content.component';
     AboutComponent,
     MenuComponent,
     FullComponent,
-    ContentComponent
+    ContentComponent,
+    ContentRestrictComponent,
+
+    LoginComponent,
+     RecoverPasswordComponent
   ],
   imports: [
     BrowserModule,
